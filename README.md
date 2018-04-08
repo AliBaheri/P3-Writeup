@@ -46,7 +46,7 @@ The model.py file contains the code for training and saving the convolution neur
 ### Model Architecture and Training Strategy
 
 <p align="center">
-<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/model.png">
 
 
 #### 1. An appropriate model architecture has been employed
