@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 <p align="center">
-<img width="400" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
+<img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -36,11 +36,11 @@ My project includes the following files:
 The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
 
 <p align="center">
-<img width="400" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
+<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
 
 
 <p align="center">
-<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/cameras.png">
 
 
 ### Model Architecture and Training Strategy
