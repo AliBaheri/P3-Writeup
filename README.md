@@ -40,7 +40,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 
 <p align="center">
-<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/cameras.png">
+<img width="800" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/cameras.png">
 
 
 ### Model Architecture and Training Strategy
