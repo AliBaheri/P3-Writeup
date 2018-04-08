@@ -1,7 +1,5 @@
 ## **Behavioral Cloning** 
 
----
-
 **Behavioral Cloning Project**
 
 The goals / steps of this project are the following:
@@ -14,10 +12,6 @@ The goals / steps of this project are the following:
 <p align="center">
 <img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
-
----
 ### Files Submitted & Code Quality
 
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
