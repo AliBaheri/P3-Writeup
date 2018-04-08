@@ -11,16 +11,8 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -43,17 +35,31 @@ My project includes the following files:
 
 The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
 
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+
+
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+
+
 ### Model Architecture and Training Strategy
 
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
 
 
 #### 1. An appropriate model architecture has been employed
 
-<img width="900" src="https://www.google.com/search?q=nvidia+model+deep+learning+model+self+driving+car&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiu8s_FuLDYAhWJk-AKHaShAIcQ_AUIDCgD&biw=1261&bih=611&dpr=2#imgrc=UQehSNok1ET_LM:"> 
+
 
 My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
 
 The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+
 
 #### 2. Attempts to reduce overfitting in the model
 
@@ -61,9 +67,17 @@ The model contains dropout layers in order to reduce overfitting (model.py lines
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+
+
 #### 3. Model parameter tuning
 
 The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
+
+<p align="center">
+<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+
 
 #### 4. Appropriate training data
 
@@ -95,28 +109,22 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-![alt text][image1]
+
 
 #### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
 
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
 
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
 
-![alt text][image6]
-![alt text][image7]
 
-Etc ....
 
 After the collection process, I had X number of data points. I then preprocessed this data by ...
 
