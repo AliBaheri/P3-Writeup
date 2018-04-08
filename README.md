@@ -58,7 +58,7 @@ My model consists of a convolution neural network with 3x3 filter sizes and dept
 The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
 
 <p align="center">
-<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+<img width="400" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
 
 
 #### 2. Attempts to reduce overfitting in the model
