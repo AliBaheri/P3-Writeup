@@ -76,7 +76,7 @@ The model was trained and validated on different data sets to ensure that the mo
 The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
 
 <p align="center">
-<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/sample_images.png">
 
 
 #### 4. Appropriate training data
