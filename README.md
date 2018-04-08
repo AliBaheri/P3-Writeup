@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 <p align="center">
-<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
+<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
