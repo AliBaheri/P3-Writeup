@@ -15,12 +15,12 @@ The goals / steps of this project are the following:
 * model.h5 containing a trained convolution neural network 
 * writeup_report.md or writeup_report.pdf summarizing the results
 
-### Overall hardware Setup:
+### Overall hardware setup:
 
 <p align="center">
 <img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
 
-### Overall software Setup:
+### Overall software setup:
 
 <p align="center">
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
@@ -38,11 +38,6 @@ During the training, the simulator captures data with a frequency of 10hz. In fa
 <p align="center">
 <img width="350" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/model.png">
 
-
-
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
-
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
 
 <p align="center">
 <img width="400" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
@@ -65,59 +60,3 @@ The model used an adam optimizer, so the learning rate was not tuned manually (m
 <p align="center">
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/sample_images.png">
 
-
-#### 4. Appropriate training data
-
-Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... 
-
-For details about how I created the training data, see the next section. 
-
-### Model Architecture and Training Strategy
-
-The project instructions from Udacity suggest starting from a known self-driving car model. The diagram below is a depiction of the nVidia model architecture:
-
-#### 1. Solution Design Approach
-
-The overall strategy for deriving a model architecture was to ...
-
-My first step was to use a convolution neural network model similar to the ... I thought this model might be appropriate because ...
-
-In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
-
-To combat the overfitting, I modified the model so that ...
-
-Then I ... 
-
-The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I ....
-
-At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
-
-#### 2. Final Model Architecture
-
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes ...
-
-Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
-
-
-
-#### 3. Creation of the Training Set & Training Process
-
-To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
-
-
-
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
-
-Then I repeated this process on track two in order to get more data points.
-
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
-
-
-
-After the collection process, I had X number of data points. I then preprocessed this data by ...
-
-
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
