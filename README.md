@@ -43,6 +43,6 @@ The model is based on Nvidia architecture with more dropout layers to prevent ov
 
 
 ### Conclusion
-While the results are sasitfactory for the first track, the car is not able to sucessfuly run in the jungle track. My plan is to revisit this project to find a solution for the second track.
+While the results are sasitfactory for the first track, the car is not able to successfully run in the jungle track. My plan is to revisit this project to find a solution for the second track.
 
 
