@@ -33,6 +33,8 @@ The model.py file contains the code for training and saving the convolution neur
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
 
 
+During the training, the simulator captures data with a frequency of 10hz. In fact, at a given time step it recorded three images taken from left, center, and right cameras:
+
 <p align="center">
 <img width="800" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/cameras.png">
 
