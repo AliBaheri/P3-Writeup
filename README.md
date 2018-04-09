@@ -83,6 +83,8 @@ For details about how I created the training data, see the next section.
 
 ### Model Architecture and Training Strategy
 
+The project instructions from Udacity suggest starting from a known self-driving car model. The diagram below is a depiction of the nVidia model architecture:
+
 #### 1. Solution Design Approach
 
 The overall strategy for deriving a model architecture was to ...
