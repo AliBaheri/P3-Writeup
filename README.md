@@ -15,12 +15,12 @@ The goals / steps of this project are the following:
 * model.h5 containing a trained convolution neural network 
 * writeup_report.md or writeup_report.pdf summarizing the results
 
-### Overall Hardware Setup:
+### Overall hardware Setup:
 
 <p align="center">
 <img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
 
-### Overall Software Setup:
+### Overall software Setup:
 
 <p align="center">
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
