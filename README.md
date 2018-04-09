@@ -35,7 +35,7 @@ During the training, the simulator captures data with a frequency of 10hz. In fa
 
 ### Model Architecture and Training Strategy
 
-The model is based on Nvidia architecture with more dropout layers to prevent overfitting. To deal with a large amount of data, I used data generator to train the model much more memory-efficient. The images have also been processed using the brightness technique, shadow augmentation technique, and flip images technique using openCV libraries.
+The model is based on Nvidia architecture with more dropout layers to prevent overfitting. To deal with a large amount of data, I used data generator to train the model. The images have also been processed using the brightness, shadow augmentation, and flip images techniques using openCV libraries.
 
 
 <p align="center">
