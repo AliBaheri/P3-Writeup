@@ -22,12 +22,10 @@ My project includes the following files:
 * model.h5 containing a trained convolution neural network 
 * writeup_report.md or writeup_report.pdf summarizing the results
 
-#### 2. Submission includes functional code
-
 
 #### 3. Submission code is usable and readable
 
-The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
+Overal Software Setup:
 
 <p align="center">
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
