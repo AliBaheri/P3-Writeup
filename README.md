@@ -20,6 +20,7 @@ The goals / steps of this project are the following:
 <p align="center">
 <img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
 (image credit: Nvidia paper)
+
 ### Overall software setup:
 
 <p align="center">
