@@ -9,21 +9,23 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-<p align="center">
-<img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
-
 ### My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network 
 * writeup_report.md or writeup_report.pdf summarizing the results
 
+### Overall Hardware Setup:
 
-### Overal Software Setup:
+<p align="center">
+<img width="500" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_hw.png">
+
+### Overall Software Setup:
 
 <p align="center">
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/overal_sw.png">
 
+### Data
 
 During the training, the simulator captures data with a frequency of 10hz. In fact, at a given time step it recorded three images taken from left, center, and right cameras:
 
@@ -35,9 +37,6 @@ During the training, the simulator captures data with a frequency of 10hz. In fa
 
 <p align="center">
 <img width="350" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/model.png">
-
-
-#### 1. An appropriate model architecture has been employed
 
 
 
