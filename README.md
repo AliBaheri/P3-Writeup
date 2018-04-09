@@ -39,26 +39,5 @@ During the training, the simulator captures data with a frequency of 10hz. In fa
 <img width="350" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/model.png">
 
 
-<p align="center">
-<img width="400" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
-
-
-#### 2. Attempts to reduce overfitting in the model
-
-The model contains dropout layers in order to reduce overfitting (model.py lines 21). 
-
-The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
-
-<p align="center">
-<img width="600" src= "https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/nonCar_HOG.png">
-
-
-#### 3. Model parameter tuning
-
-The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
-
-<p align="center">
-<img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/sample_images.png">
-
 ### Solution
 The model is based on Nvidia architecture with more dropout layers to prevent overfitting. To deal with a large amount of data, I used data generator to train the model much more memory-efficient. The images have also been processed using the brightness technique, shadow augmentation technique, and flip images technique with the openCV libraries.
