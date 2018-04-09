@@ -60,3 +60,5 @@ The model used an adam optimizer, so the learning rate was not tuned manually (m
 <p align="center">
 <img width="600" src= "https://github.com/AliBaheri/P3-Writeup/blob/master/images/sample_images.png">
 
+### Solution
+The model is based on Nvidia architecture with more dropout layers to prevent overfitting. To deal with a large amount of data, I used data generator to train the model much more memory-efficient. The images have also been processed using the brightness technique, shadow augmentation technique, and flip images technique with the openCV libraries.
